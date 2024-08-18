@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: #fafafa !important;
+    border-radius: 0;
+}
+
+.herosec{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
+
+}
+
+.hero{
+    padding-top: 1em !important;
+}
+
+.img1{
+    height: 200px !important;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%);
+    border-radius: 0 0 12px 12px;
+}
+
+.star{
+    color: rgb(255, 213, 0);
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.bgimg{
+ background-image:
+  url(./Assets/grp.jpg);
+  background-size: cover;
+   width: 500px;
+   height: 350px;
+   margin-bottom: 2em;
+   background-repeat: no-repeat;
+   border-radius: 12px;
+
+}
+
+.sec5{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
+    height: 65vh;
+}
+
+
+
+@media (max-width:992px){
+
+    .navbar{
+        border-radius: 0px !important ;
+    }
+}
+
+@media (max-width:550px){
+
+    .bgimg{
+        width: 300px ;
+        height: 300px;
+    }
+}
