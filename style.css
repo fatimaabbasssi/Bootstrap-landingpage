@@ -22,21 +22,6 @@
     display: inline-block !important;
 }
 
-.end{
-    position: absolute;
-    right:3% ;
-}
-
-.gthan{
-    color: white;
-    text-align: center;
-    background-color: black;
-    width: 20px;
-    height: 20px;
-    padding-top: 0.1em;
-    border-radius: 50%;
-}
-
 .hero{
     padding-top: 1em !important;
 }
@@ -57,9 +42,7 @@
 }
 
 .bgimg{
- background-image:
-  url(./Assets/grp.jpg);
-  background-size: cover;
+ 
    width: 500px;
    height: 350px;
    margin-bottom: 2em;
@@ -71,6 +54,7 @@
 .sec5{
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
     height: 65vh;
+    margin-bottom: 4em;
 }
 
 
@@ -90,27 +74,17 @@
 @media (max-width:550px){
 
     .bgimg{
-        width: 300px ;
+        max-width: 280px ;
         height: 300px;
 
     }
 
-   
+    .input-group{
+        font-size: small !important;
+    }
 
-
+    .btn{
+        font-size: smaller !important;
+    }
 }
 
-
-@media (max-width:360px){
-
-.head2{
-    display: block !important;
-}
-
-.end{
-    position: static;
-    margin-bottom: 2em;
-}
-
-
-}
