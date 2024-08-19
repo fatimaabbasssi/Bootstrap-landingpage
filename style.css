@@ -5,12 +5,36 @@
 
 .navbar{
     background-color: #fafafa !important;
-    border-radius: 0;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
 }
 
 .herosec{
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
+    margin-top: 6em !important;
 
+}
+
+.head2{
+    display: inline-block !important;
+}
+
+.end{
+    position: absolute;
+    right:3% ;
+}
+
+.gthan{
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    padding-top: 0.1em;
+    border-radius: 50%;
 }
 
 .hero{
@@ -55,6 +79,11 @@
 
     .navbar{
         border-radius: 0px !important ;
+    } 
+    
+    .sec5{
+        height: 80vh;
+        margin-top: 2em !important;
     }
 }
 
@@ -63,5 +92,25 @@
     .bgimg{
         width: 300px ;
         height: 300px;
+
     }
+
+   
+
+
+}
+
+
+@media (max-width:360px){
+
+.head2{
+    display: block !important;
+}
+
+.end{
+    position: static;
+    margin-bottom: 2em;
+}
+
+
 }
